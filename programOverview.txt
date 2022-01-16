@@ -1,0 +1,26 @@
+Overall programming things
+function test (){
+  safsdaf;
+}
+Functions
+if statement
+Switch statement
+switch (saf){
+  case a:
+    do things
+    break;
+  }
+variables
+variable types
+  string
+  int
+  floating point number == float
+  array
+array
+while loops
+nested while loops
+
+class
+Private class
+Public class
+console output
