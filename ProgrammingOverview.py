@@ -11,11 +11,12 @@ Compare = 10 #variable #integer
 hello(Compare)#hello (10)
 
 def hello(just): #hello(10)
+for loop
     match just:
-        case 1:
+        case 0:
             return "this is a " + just
-        case 10:
-            print("this is a 10")
+        case 2:
+            i = -1
 
 
 
