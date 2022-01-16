@@ -5,16 +5,20 @@ def standardFunction(text):
 if x < 0:
     x = 0
     print(x)
+
+
 Compare = 10
+hello(Compare)#hello (10)
 
-hello(Compare)
-
-def hello(compare):
-    match compare:
+def hello(just): #hello(10)
+    match just:
         case 1:
-            return "this is a " + compare
+            return "this is a " + just
         case 10:
-            return "this is a ten"
+            print("this is a 10")
+
+
+
 
 HOUSE = 5 + 7 #12
 print(HOUSE)
