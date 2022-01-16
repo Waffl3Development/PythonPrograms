@@ -1,4 +1,4 @@
-def standardfunction(text):
+def standardFunction(text):
     text = "hello world!"
     print(text)
 
@@ -16,8 +16,8 @@ def hello(compare):
         case 10:
             return "this is a ten"
 
-house = 5 + 7 #12
-print(house)
+HOUSE = 5 + 7 #12
+print(HOUSE)
 
 print("5" + 7) #57
 
@@ -58,8 +58,8 @@ for i in range(5): #i is 0
 
 u=0
 r=0
-while (u < 5):#0
-    while (r < 10):#10
+while u < 5:#0
+    while r < 10:#10
         print(u,r)
         #0,0
         #0,1
