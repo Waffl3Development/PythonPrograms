@@ -1,0 +1,81 @@
+Overall programming things
+
+Functions
+function test (){
+  safsdaf;
+}
+
+Every Programming language (that I have learned so far) has some form of these operations inside the code, realizing this may help, especially when moving between languages
+if statement
+	general if statement if x is true or compare two values to see if they are different or the same do something else do something else
+Switch statement (a majority of programming languages have something similar but not all, python only got something like this in the most recent update: https://docs.python.org/3/whatsnew/3.10.html)
+	basically a streamlined if statement that expects specific things and if none of those match default to something
+          switch (saf){ 
+            case a:
+              do things
+              break;
+	    case b:
+	      do other things
+	      break;
+	    case _:
+	      wildcard things
+	      return; #return is used in python whereas break is used with javascript 
+            }
+
+variables and types
+            string
+		defined by quotes single or double ' " or `(javascript)
+            int
+		typical whole number: 4 6 8 45 3241 **NOTE: if a number is in quotes eg. "4" THIS IS A STRING NOT AN INTEGER AND AS SUCH WILL NOT BE TREATED AS A NUMBER
+            floating point number also known as a float
+		number with a decimal: 4.0 6.3 6.75 64.54 **NOTE: if a number is in quotes eg. "4.0" THIS IS A STRING NOT A FLOAT AND AS SUCH WILL NOT BE TREATED AS A NUMBER
+            array (list)
+		an array is a variable that holds mulitple values (not to be confused with variable method in javascript or an object of a class in python(more on this later!!)) and certain things can be accessed by using a number eg. variable[2] (starts at 0 instead of 1 so this gets the value in 
+		the third position variable = ['w', 'a', 's', 'd']
+		are equal to positions	       [0]  [1]  [2]  [3]  so variable[2] would return 's'
+		)
+while loops
+	while x is true or when comparing two values, as long as the result is true, do the following until the result is false
+		a = 1 b = 1	
+		while a == b
+			print "hello" ## outputs the word "hello" infinitely
+	but if we set 
+		b = 2
+		while a == b
+			print "hello" ##outputs nothing as a is not equal to b
+	numbers can be changed within the loop to create a limited number of outputs
+		a = 1 b = 1	
+		while a == b 
+			print "hello"
+			b = b + 1 ##this will print hello only once as they started equal but then 1 was added to b making b = 2 and making it false
+
+	nested while loops
+		while loops can be placed within another while loop allowing for a grid pattern or points to possibly be made
+			u=0
+			while u < 5:  #0
+    				r=0
+    				while r < 10:  #10
+        				print(u,r)
+						#this will output the following until it reaches 10 with 0,9 being the last output before it becomes 1,0 its kind of confusing to visualize but you can put this into a py file and run it to see the result
+        					#0,0
+        					#0,1
+        					#0,2
+        				r = r + 1
+    				u = u + 1
+
+
+console output
+	outputs the result to the console useful for diagnosing issues or for having a user read something on the screen
+	in javascript this is console.log(), in python it is print()
+	other languages may use something different but core functionality of outputting to the console is the same
+
+
+
+Ignore for now:
+	class
+	Private class
+	Public class
+
+	read file
+	write file
+	multifile programming

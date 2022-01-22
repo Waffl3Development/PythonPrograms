@@ -1,7 +1,8 @@
-def standardFunction(text):
+#functions
+def standardFunction():#define function with name
     text = "hello world!"
     print(text)
-
+#basic if statement
 if x < 0:
     x = 0
     print(x)
@@ -11,7 +12,7 @@ Compare = 10 #variable #integer
 hello(Compare)#hello (10)
 
 def hello(just): #hello(10)
-for loop
+
     match just:
         case 0:
             return "this is a " + just
