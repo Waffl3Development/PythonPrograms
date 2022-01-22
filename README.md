@@ -28,11 +28,10 @@ next type
 
 exit your terminal or command prompt and relaunch them (this refreshes environmental variables) and type pip and hit enter
 
-*
-After making sure you have pip installed simply install pylint by typing
+*After making sure you have pip installed simply install pylint by typing
   pip install pylint
 This should automatically download and configure pylint
 
 Restart atom editor and any python files you open in atom will now have linter enabled
 
-Finally you may notice that linter outputs a bunch of Info tags that take up space and are generally not helpful to fix this simply download the .pylintrc from my GitHub page and place it into the same folder as your .py files, this will tell linter to ignore those info tags and it should only show warnings and errors  
+Finally you may notice that linter outputs a bunch of Info tags that take up space and are generally not helpful to fix this simply download the zip file and extract it to folder and copy the .pylintrc from the folder and place it into the same folder as your .py files, this will tell linter to ignore those info tags and it should only show warnings and errors  
