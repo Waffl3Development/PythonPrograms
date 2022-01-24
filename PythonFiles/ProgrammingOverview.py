@@ -3,13 +3,13 @@ def standardFunction():#define function with name
     text = "hello world!"
     print(text)
 #basic if statement
+x=-5
 if x < 0:
     x = 0
     print(x)
 
 
 Compare = 10 #variable #integer
-hello(Compare)#hello (10)
 
 def hello(just): #hello(10)
 
@@ -17,7 +17,9 @@ def hello(just): #hello(10)
         case 0:
             return "this is a " + just
         case 2:
-            i = -1
+            k = -1
+
+hello(Compare)#hello (10)
 
 
 
@@ -81,4 +83,3 @@ while u < 5:#0
         #0,2
         r = r + 1
     u = u + 1
-
